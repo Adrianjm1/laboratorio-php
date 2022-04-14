@@ -13,25 +13,52 @@
 </head>
 
 <body>
-    <h1>Bienvenido al sistema de laboratorio</h1>
 
-    <?php
-    $ruta = 'dashboardEnfermero';
-    ?>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Laboratorio</a>
 
-
-    <form action="process/EorD.php" method="post">
-        <select name="select">
-            <option value="dashboardEnfermero" selected>Enfermero</option>
-            <option value="dashboardDoctor">Doctor </option>
-        </select>
-        <input type="submit" value="Ingresar">
-    </form>
+    </nav>
 
 
+    <div class="mx-auto d-block text-center">
+
+
+
+
+
+
+
+
+
+        <h1 class="h1">Bienvenido al sistema de laboratorio</h1>
+        <br />
+        <?php
+        $ruta = 'dashboardEnfermero';
+        ?>
+
+
+        <form action="process/EorD.php" method="post">
+            <select class="form-select w-25 mx-auto" name="select">
+                <option value="dashboardEnfermero" selected>Enfermero</option>
+                <option value="dashboardDoctor">Doctor </option>
+            </select>
+            <br />
+            <input class="btn btn-success" type="submit" value="Ingresar">
+        </form>
+
+    </div>
+
+
+    <footer style="position: fixed; bottom:0; width: 100%;" class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-dark" href="$">Adrian Molina</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
 
 
 </body>
 
 </html>
-

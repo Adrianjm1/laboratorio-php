@@ -47,7 +47,7 @@ $countQUERY = mysqli_num_rows($rsQUERY);
 </nav>
 
 <table  class="mx-auto table table-bordered table-dark">
-    Ordener de examenes pendientes
+    <h3 class="mx-auto d-relative  text-info" >Ordener de examenes pendientes </h3> 
     <thead>
         <tr>
             <th scope="col">Paciente</th>
@@ -86,11 +86,19 @@ $countQUERY = mysqli_num_rows($rsQUERY);
     </tbody>
 </table>
 
-<a class="text-decoration-none text-white" href="addPozo.php"> 
+<!-- <a class="text-decoration-none text-white" href="addPozo.php"> 
     
     <button class="mx-auto d-block btn-primary"> Agregar paciente </button>
 
-</a>    
-    
+</a>     -->
+<footer style="position: fixed; bottom:0; width: 100%;" class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-dark" href="#">Adrian Molina</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
 </body>
 </html>

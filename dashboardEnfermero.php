@@ -84,13 +84,13 @@ $countQUERY = mysqli_num_rows($rsQUERY);
     </table>
 
     <p>
-        <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        <button class="btn mx-auto d-block text-center btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
             Agregar paciente
         </button>
     </p>
 
     
-    <div class="collapse" id="collapseExample">
+    <div class="collapse mx-auto  text-center" id="collapseExample">
         <form action="process/addPaciente.php" method="post">
             <label for="nombre">Nombre</label> <br>
             <input type="text" name="nombre">
@@ -102,10 +102,20 @@ $countQUERY = mysqli_num_rows($rsQUERY);
             <input type="email" name="correo">
             <input type="hidden" value="enfermero" name="enfermero">
             <br>
-            <button type="submit" name="crear-nota" value="create" styles="margin-left: 20px;">Agregar</button>
+            <button class="btn btn-info" type="submit" name="crear-nota" value="create" styles="margin-left: 20px;">Agregar</button>
         </form>
         <br>
     </div>
+
+    <footer style="position: fixed; bottom:0; width: 100%;" class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-dark" href="#">Adrian Molina</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
 
 </body>
 

@@ -67,5 +67,15 @@ $paciente = mysqli_fetch_array($rsQUERY);
 
         <input type="submit" name="submit" value="Enviar">
 
+        <footer style="position: fixed; bottom:0; width: 100%;" class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-dark" href="#">Adrian Molina</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
 </body>
 </html>
