@@ -143,7 +143,7 @@ $pdf->SetFont('Arial', 'B', 16);
                                 <label for="nombre">Introducir correo</label> <br>
                                 <input type="email" name="correo">
                                 <br>
-                              
+                                <p>Doesn't work on Free Hosting</p>
                                 <button type="submit"  class="btn btn-primary" name="correox" value="create" styles="margin-left: 20px;">Enviar</button>
                             </form>
                             <br>
