@@ -139,7 +139,7 @@ $pdf->SetFont('Arial', 'B', 16);
 
 
                         <div class="collapse  text-center" id="collapseExample">
-                            <form action="#" method="post">
+                            <form action="process/sendEmail.php" method="post">
                                 <label for="nombre">Introducir correo</label> <br>
                                 <input type="email" name="correo">
                                 <br>
